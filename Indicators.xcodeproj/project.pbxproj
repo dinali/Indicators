@@ -17,12 +17,14 @@
 		9692473D16CD6CD8003A1DEF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692473C16CD6CD8003A1DEF /* Default@2x.png */; };
 		9692473F16CD6CD8003A1DEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692473E16CD6CD8003A1DEF /* Default-568h@2x.png */; };
 		9692474216CD6CD8003A1DEF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9692474016CD6CD8003A1DEF /* MainStoryboard.storyboard */; };
-		9692474516CD6CD8003A1DEF /* ERSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692474416CD6CD8003A1DEF /* ERSViewController.m */; };
 		9692474D16CD6CD8003A1DEF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9692474C16CD6CD8003A1DEF /* SenTestingKit.framework */; };
 		9692474E16CD6CD8003A1DEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9692472816CD6CD8003A1DEF /* UIKit.framework */; };
 		9692474F16CD6CD8003A1DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9692472A16CD6CD8003A1DEF /* Foundation.framework */; };
 		9692475716CD6CD8003A1DEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9692475516CD6CD8003A1DEF /* InfoPlist.strings */; };
 		9692475A16CD6CD8003A1DEF /* IndicatorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692475916CD6CD8003A1DEF /* IndicatorsTests.m */; };
+		9692476516CD6D8D003A1DEF /* IndicatorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692476416CD6D8D003A1DEF /* IndicatorsViewController.m */; };
+		9692476716CD6E10003A1DEF /* Indicators.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9692476616CD6E10003A1DEF /* Indicators.plist */; };
+		9692476916CD7F2B003A1DEF /* tractor.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692476816CD7F2B003A1DEF /* tractor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +52,16 @@
 		9692473C16CD6CD8003A1DEF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9692473E16CD6CD8003A1DEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9692474116CD6CD8003A1DEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9692474316CD6CD8003A1DEF /* ERSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSViewController.h; sourceTree = "<group>"; };
-		9692474416CD6CD8003A1DEF /* ERSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSViewController.m; sourceTree = "<group>"; };
 		9692474B16CD6CD8003A1DEF /* IndicatorsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndicatorsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9692474C16CD6CD8003A1DEF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9692475416CD6CD8003A1DEF /* IndicatorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IndicatorsTests-Info.plist"; sourceTree = "<group>"; };
 		9692475616CD6CD8003A1DEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9692475816CD6CD8003A1DEF /* IndicatorsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndicatorsTests.h; sourceTree = "<group>"; };
 		9692475916CD6CD8003A1DEF /* IndicatorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndicatorsTests.m; sourceTree = "<group>"; };
+		9692476316CD6D8D003A1DEF /* IndicatorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorsViewController.h; sourceTree = SOURCE_ROOT; };
+		9692476416CD6D8D003A1DEF /* IndicatorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorsViewController.m; sourceTree = SOURCE_ROOT; };
+		9692476616CD6E10003A1DEF /* Indicators.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Indicators.plist; sourceTree = "<group>"; };
+		9692476816CD7F2B003A1DEF /* tractor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tractor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +121,11 @@
 		9692472E16CD6CD8003A1DEF /* Indicators */ = {
 			isa = PBXGroup;
 			children = (
+				9692476316CD6D8D003A1DEF /* IndicatorsViewController.h */,
+				9692476416CD6D8D003A1DEF /* IndicatorsViewController.m */,
 				9692473716CD6CD8003A1DEF /* ERSAppDelegate.h */,
 				9692473816CD6CD8003A1DEF /* ERSAppDelegate.m */,
 				9692474016CD6CD8003A1DEF /* MainStoryboard.storyboard */,
-				9692474316CD6CD8003A1DEF /* ERSViewController.h */,
-				9692474416CD6CD8003A1DEF /* ERSViewController.m */,
 				9692472F16CD6CD8003A1DEF /* Supporting Files */,
 			);
 			path = Indicators;
@@ -134,9 +138,11 @@
 				9692473116CD6CD8003A1DEF /* InfoPlist.strings */,
 				9692473416CD6CD8003A1DEF /* main.m */,
 				9692473616CD6CD8003A1DEF /* Indicators-Prefix.pch */,
+				9692476816CD7F2B003A1DEF /* tractor.png */,
 				9692473A16CD6CD8003A1DEF /* Default.png */,
 				9692473C16CD6CD8003A1DEF /* Default@2x.png */,
 				9692473E16CD6CD8003A1DEF /* Default-568h@2x.png */,
+				9692476616CD6E10003A1DEF /* Indicators.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,6 +243,8 @@
 				9692473D16CD6CD8003A1DEF /* Default@2x.png in Resources */,
 				9692473F16CD6CD8003A1DEF /* Default-568h@2x.png in Resources */,
 				9692474216CD6CD8003A1DEF /* MainStoryboard.storyboard in Resources */,
+				9692476716CD6E10003A1DEF /* Indicators.plist in Resources */,
+				9692476916CD7F2B003A1DEF /* tractor.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +281,7 @@
 			files = (
 				9692473516CD6CD8003A1DEF /* main.m in Sources */,
 				9692473916CD6CD8003A1DEF /* ERSAppDelegate.m in Sources */,
-				9692474516CD6CD8003A1DEF /* ERSViewController.m in Sources */,
+				9692476516CD6D8D003A1DEF /* IndicatorsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +393,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Indicators/Indicators-Prefix.pch";
 				INFOPLIST_FILE = "Indicators/Indicators-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,7 +406,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Indicators/Indicators-Prefix.pch";
 				INFOPLIST_FILE = "Indicators/Indicators-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
